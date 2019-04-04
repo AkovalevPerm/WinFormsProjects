@@ -102,9 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Cat.jpg" />
-    <EmbeddedResource Include="Resources\Questions.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Questions.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
